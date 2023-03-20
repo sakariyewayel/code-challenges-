@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Salary Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Salary Calculator</h1>
+	<form>
+		<label for="basic-salary">Basic Salary:</label>
+		<input type="number" id="basic-salary" name="basic-salary" min="0" step="any"><br>
+		<label for="benefits">Benefits:</label>
+		<input type="number" id="benefits" name="benefits" min="0" step="any"><br>
+		<button type="button" onclick="calculateSalary()">Calculate</button>
+	</form>
+	<div id="result"></div>
+	<script src="index.js"></script>
+</body>
+</html>
